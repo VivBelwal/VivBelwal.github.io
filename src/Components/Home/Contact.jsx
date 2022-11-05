@@ -4,7 +4,7 @@ import BackgroundAnimation from "./BackgroundAnimation";
 const Contact = () => {
   return (
    
-   <Box  bg="#1A365D" id="contact" w="100%"  pt="5vw" pl="5vw" pb="10" border={"1px solid green"}>
+   <Box  bg="#1A202C" id="contact" w="100%"  pt="5vw" pl="5vw" pb="10" >
       <Text  display="flex" ml="10%" fontSize={{ lg: "40", md: "30", sm: "20.5", base: "20" }} 
           fontWeight={"400"}
           fontFamily="brushscriptmt" color="purple.200" >Contact

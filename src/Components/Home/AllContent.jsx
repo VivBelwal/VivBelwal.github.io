@@ -13,7 +13,7 @@ const AllContent = () => {
     <Box  w="100%" position={"absolute"} top={{ lg: "80px", md: "60px", sm: "40px", base: "40px" }}>
       <Home/>
       <About/>
-      <Skills/>
+      {/* <Skills/> */}
       <Skill />
       <Project/>
       <GithubCalender />

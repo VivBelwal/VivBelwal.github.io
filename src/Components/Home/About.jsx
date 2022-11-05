@@ -3,7 +3,7 @@ import React from 'react';
 import BackgroundAnimation from "./BackgroundAnimation";
 const About = () => {
   return (
-    <Box bg="#1A365D" id="about" w="100%" pt="5vw" pl="5vw">
+    <Box bg="#1A202C" id="about" w="100%" pt="5vw" pl="5vw" pb="5vw">
       <Text  display="flex" ml="10%" fontSize={{ lg: "40", md: "30", sm: "20.5", base: "20" }} 
           fontWeight={"400"}
           fontFamily="brushscriptmt" color="purple.200" >About

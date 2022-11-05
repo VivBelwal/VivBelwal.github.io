@@ -4,7 +4,7 @@ import {Text} from "@chakra-ui/react"
 
 function Type() {
   return (
-    <Text color="purple.200"
+    <Text color="purple.200" pt="2vw"
     fontSize={{ lg: "40", md: "30", sm: "20", base: "4.5vw" }}
     lineHeight={{ lg: "10", md: "8", sm: "5", base: "2" }}
      >

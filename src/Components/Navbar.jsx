@@ -25,7 +25,7 @@ import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
-    <Box backgroundColor="#1A365D" p="2vw" w="100%" position={"fixed"} zIndex="100" >
+    <Box backgroundColor="#1A202C" p="2vw" w="100%" position={"fixed"} zIndex="100" >
       <Flex justifyContent={"space-between"}  >
         <Box w="30%" display='flex' ml="11%">
           <Text 
@@ -42,7 +42,7 @@ export default function Navbar() {
           </Text>
         </Box>
         <Flex
-          justifyContent={"space-evenly"}
+          justifyContent={{ base: "space-evenly", sm: "space-evenly", md: "space-evenly", lg: "space-evenly" }}
           w="60%"
           display={{ base: "none", sm: "none", md: "flex", lg: "flex" }}
           color="purple.200"
@@ -73,9 +73,11 @@ export default function Navbar() {
             </Link>
           </Text>
           <Text>
-            <Link to="resume" spy={true} smooth={true}>
+            <a href="https://drive.google.com/file/d/1ln87u2TaNJ619qlEcVoXX7Q3T8pC73V3/view?usp=sharing" 
+            target={"_blank"}
+            spy={true} smooth={true}>
               Resume
-            </Link>
+            </a>
           </Text>
         </Flex>
         <Menu >
