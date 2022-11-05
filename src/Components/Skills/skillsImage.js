@@ -16,6 +16,8 @@ import postman from "../../img/skills/postman.svg";
 import redux from "../../img/skills/redux.png";
 import replit from "../../img/skills/replit.svg";
 import vscode from "../../img/skills/vscode.png";
+import gmail from "../../img/skills/gmail.png";
+import linkdin from "../../img/skills/linkdin.png"
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -56,6 +58,10 @@ export const skillsImage = (skill) => {
       return replit;
       case "vs code":
       return vscode;
+      case "gmail":
+      return gmail;
+      case "linkdin":
+      return linkdin;
       
 
     default:

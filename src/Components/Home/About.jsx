@@ -16,10 +16,7 @@ const About = () => {
         <Text fontSize={{ lg: "20", md: "20", sm: "15", base: "10" }} color="white" justifyContent={"center"}
            ml="30%" textAlign={"center"} mr="20%"  mt="2vw"
           >
-            A self-motivated hard-working and ambitious
-aspiring full-stack web developer with hands-on
-experience in building websites with MERN stack
-and various web technologies including HTML, CSS,   </Text>
+          A self-motivated and result-oriented full-stack web developer with more than 1200 hours of add-on coding experience in building user-centric websites. Looking for a challenging role in a growth-oriented organization to showcase my skill through dedicated effort.   </Text>
           
       
     </Box>

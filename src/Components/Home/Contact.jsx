@@ -1,6 +1,7 @@
-import { Box,Text } from '@chakra-ui/react';
+import { Box,Button,Flex,Image,Text } from '@chakra-ui/react';
 import React from 'react';
 import BackgroundAnimation from "./BackgroundAnimation";
+import { skillsImage } from '../Skills/skillsImage';
 const Contact = () => {
   return (
    
@@ -8,17 +9,47 @@ const Contact = () => {
       <Text  display="flex" ml="10%" fontSize={{ lg: "40", md: "30", sm: "20.5", base: "20" }} 
           fontWeight={"400"}
           fontFamily="brushscriptmt" color="purple.200" >Contact
-          <Text fontSize={{ lg: "40", md: "30", sm: "20.5", base: "20" }} color="white" 
-          fontWeight={"400"}
-          fontFamily="brushscriptmt" ></Text>
+         
           
           </Text>
 
         <Text fontSize={{ lg: "20", md: "20", sm: "15", base: "10" }} color="white" justifyContent={"center"}
          ml="30%" textAlign={"center"} mr="20%"  mt="2vw"
           >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus facilis, eveniet reiciendis tenetur, ipsum, suscipit explicabo ratione voluptatem vel soluta labore. Assumenda ipsum magnam voluptate repellat tempora nostrum excepturi necessitatibus!
+           Contact Number - +91 9548726449
         </Text>
+        <a   href="mailto:04vivek10belwal@gmail.com" target={"_blank"}>
+        <Text fontSize={{ lg: "20", md: "20", sm: "15", base: "10" }} color="white" justifyContent={"center"}
+         ml="30%" textAlign={"center"} mr="20%"  mt="2vw" _hover={{color : "purple.200"}}
+          >
+           
+          
+           Email Address - 04vivek10belwal@gmail.com
+        </Text>
+        </a>
+        <Text fontSize={{ lg: "20", md: "20", sm: "15", base: "10" }} color="white" justifyContent={"center"}
+         ml="30%" textAlign={"center"} mr="20%"  mt="2vw"
+          >
+           Address - Dehradun, Uttarakhand
+        </Text>
+         <Box display={"flex"} m="auto" w="50%" pt="3vw" ml="30%" >
+         <a href='https://github.com/VivBelwal' target={"_blank"}>
+            <Box width={"40%"}  m="auto">
+              <Image src={skillsImage("github")} w ="100%" alt ="git" />
+              </Box>
+            </a>
+            <a href='https://www.linkedin.com/in/vivek-belwal/' target={"_blank"}>
+            <Box width={"30%"} m="auto">
+              <Image src={skillsImage("linkdin")} alt ="linkdin" />
+              </Box>
+            </a>
+            <a href="mailto:04vivek10belwal@gmail.com" target={"_blank"}>
+            <Box width={"30%"}  m="auto">
+              <Image src={skillsImage("gmail")} alt ="gmail" />
+              </Box>
+            </a>
+         </Box>
+           
           
       
     </Box>

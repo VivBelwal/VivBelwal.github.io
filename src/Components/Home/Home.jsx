@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import resume from "../../Components/Resume/viv.pdf";
 import BackgroundAnimation from "./BackgroundAnimation";
 
-
+import profile from "../Images/Profile.jpg";
 import Type from "./Type"
 export default function  Home(){
 
@@ -14,12 +14,13 @@ e.href = "https://drive.google.com/file/d/1ln87u2TaNJ619qlEcVoXX7Q3T8pC73V3/view
 e.download = resume;
 }
    
-    return <Box bgColor={"#1A202C"}  p="3vw" >
+    return <Box bgColor={"#1A202C"}  p="3vw" id="home">
      
     
       <Flex 
        gap="10%"
-       justifyContent={"space-evenly"}>
+       justifyContent={"space-evenly"}
+       mt="2vw">
         <Box w="25%" ml="6vw">
         <Image  src='https://ca.slack-edge.com/T0445MYTCTF-U045097RDRA-0d70e77c5a60-512' borderRadius={"50%"} position="relative" zIndex={2} w="100%"/>
         

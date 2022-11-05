@@ -1,5 +1,6 @@
 import {
   Box,
+  Container,
   IconButton,
   Menu,
   MenuButton,
@@ -46,11 +47,14 @@ export default function Navbar() {
           w="60%"
           display={{ base: "none", sm: "none", md: "flex", lg: "flex" }}
           color="purple.200"
-          fontSize={'20'}
+          fontSize={{  md: "20", sm: "0", base: "0" }}
           mt='2'
         >
           <Text>
+           
+           <Link to="home" spy={true} smooth={true}>
            Home
+            </Link>
           </Text>
           <Text>
             <Link to="about" spy={true} smooth={true}>
@@ -80,10 +84,12 @@ export default function Navbar() {
             </a>
           </Text>
         </Flex>
+        
         <Menu >
           <MenuButton
-          w="20%"
+          w="10%"
           h=""
+          bg="white"
             display={{
               base: "block",
               sm: "block",
@@ -95,26 +101,49 @@ export default function Navbar() {
             aria-label="Options"
             icon={<HamburgerIcon />}
             variant="outline"
+            mr="8vw"
           />
-          <MenuList bg="purple.200">
-            <MenuItem icon={<AddIcon />}>Home</MenuItem>
+          <MenuList bg="#1A202C" w="10%" color="black" ml="2vw" pl="2vw" pr="2vw" fontFamily="brushscriptmt">
+          <Link to="home" spy={true} smooth={true}>
+          <MenuItem icon={<AddIcon />}>Home</MenuItem>
+            </Link>
+            
             <Link to="about" spy={true} smooth={true}>
               <MenuItem icon={<InfoIcon />} >
-                About
+            
+              About
+           
               </MenuItem>
             </Link>
+            <Link to="skills" spy={true} smooth={true}>
             <MenuItem icon={<StarIcon />}>
               Skills
             </MenuItem>
+            </Link>
+            
+            <Link to="project" spy={true} smooth={true}>
             <MenuItem icon={<LinkIcon />} >
+            
               Project
+           
             </MenuItem>
-            <MenuItem icon={<PhoneIcon />} >
+            </Link>
+            <Link to="contact" spy={true} smooth={true}>
+             
+              <MenuItem icon={<PhoneIcon />} >
               Contact
-            </MenuItem>
+           </MenuItem>
+            </Link>
+           
+            <a href="https://drive.google.com/file/d/1ln87u2TaNJ619qlEcVoXX7Q3T8pC73V3/view?usp=sharing" 
+            target={"_blank"}
+            spy={true} smooth={true}>
+            
             <MenuItem icon={<ExternalLinkIcon />} >
-              Resume
+            Resume
             </MenuItem>
+            </a>
+           
           </MenuList>
         </Menu>
       </Flex>
