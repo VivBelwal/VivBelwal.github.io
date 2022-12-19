@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.31c65795.css",
-    "main.js": "/static/js/main.6db9023a.js",
+    "main.js": "/static/js/main.4bc11bdc.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/nature.png": "/static/media/nature.ec0238dd6eab9ce70f4a.png",
+    "static/media/apnaMart.png": "/static/media/apnaMart.54b077214a85aec246a1.png",
     "static/media/stylecraze.png": "/static/media/stylecraze.fc4ecc84c5df8d9366c2.png",
     "static/media/viv.pdf": "/static/media/viv.07e56957bf1fdc8bc2e1.pdf",
     "static/media/leadIQ.png": "/static/media/leadIQ.d5055f8a61b67e1b9b2f.png",
@@ -27,11 +28,11 @@
     "static/media/html.svg": "/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
     "index.html": "/index.html",
     "main.31c65795.css.map": "/static/css/main.31c65795.css.map",
-    "main.6db9023a.js.map": "/static/js/main.6db9023a.js.map",
+    "main.4bc11bdc.js.map": "/static/js/main.4bc11bdc.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31c65795.css",
-    "static/js/main.6db9023a.js"
+    "static/js/main.4bc11bdc.js"
   ]
 }
