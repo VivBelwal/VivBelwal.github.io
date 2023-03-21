@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ff1115e.css",
-    "main.js": "/static/js/main.dabdb7e2.js",
+    "main.js": "/static/js/main.71597f02.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Home.png": "/static/media/Home.f5fb8d10fa8ad698ede7.png",
     "static/media/makeup.png": "/static/media/makeup.9d1f1daeef967afbb8fd.png",
@@ -16,6 +16,7 @@
     "static/media/makeup-1.png": "/static/media/makeup-1.420d0e82002d9907e888.png",
     "static/media/haircare.png": "/static/media/haircare.837ca2e1b07fc327748e.png",
     "static/media/viv.pdf": "/static/media/viv.07e56957bf1fdc8bc2e1.pdf",
+    "static/media/Footer.png": "/static/media/Footer.40a10cd96c6e853179db.png",
     "static/media/product.png": "/static/media/product.64b53546213ca8590464.png",
     "static/media/leadIQ.png": "/static/media/leadIQ.d5055f8a61b67e1b9b2f.png",
     "static/media/github.png": "/static/media/github.7c940f03a8988f4719d3.png",
@@ -34,6 +35,8 @@
     "static/media/Login_Page.jpg": "/static/media/Login_Page.0444633c67533837038d.jpg",
     "static/media/Cart_Page.jpg": "/static/media/Cart_Page.3b493ffe3db0298ca72f.jpg",
     "static/media/chakraui.png": "/static/media/chakraui.e4c92a384394912925aa.png",
+    "static/media/Apna_Checkout.png": "/static/media/Apna_Checkout.821a0e86d0383cab2bd3.png",
+    "static/media/Apna_Login.png": "/static/media/Apna_Login.65657d7e718e6420602f.png",
     "static/media/linkdin.png": "/static/media/linkdin.8c3fa95af35750da3f4e.png",
     "static/media/vscode.png": "/static/media/vscode.023b2ed2cdf97cf6d380.png",
     "static/media/aws.svg": "/static/media/aws.0510b15a569784887c907463b08fcdc4.svg",
@@ -49,11 +52,11 @@
     "static/media/html.svg": "/static/media/html.6a342d61e4fe710cf3e5c05b65b0ac87.svg",
     "index.html": "/index.html",
     "main.7ff1115e.css.map": "/static/css/main.7ff1115e.css.map",
-    "main.dabdb7e2.js.map": "/static/js/main.dabdb7e2.js.map",
+    "main.71597f02.js.map": "/static/js/main.71597f02.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ff1115e.css",
-    "static/js/main.dabdb7e2.js"
+    "static/js/main.71597f02.js"
   ]
 }
