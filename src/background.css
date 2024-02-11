@@ -1,0 +1,56 @@
+.boxes{
+
+   
+    background-color: #0E0C1D;
+    
+    cursor: pointer; 
+    transition: all 1s;  /* lets make it smooth */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+   
+    
+}
+.zoomOut:hover{
+    cursor: pointer;
+    background-color: #2196f3;
+    transition: all 1s;
+    box-shadow: inset 0 0 20px 20px #2f2f2f;
+     /* border-radius: 5px;    */
+        
+}
+#aboutBox{
+    position: relative;
+    background-color: #0E0C1D;
+    /* box-shadow: #2196f3 0px 19px 38px, #2196f3 0px 15px 12px; */
+    /* box-shadow: #2196f3 0px 7px 29px 0px; */
+    
+    
+}
+/* #about{
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+} */
+.text-about:nth-child(n):hover{
+  /* font-size: 2vw;
+color: aqua;
+transition: all 0.5s; */
+/* position: relative;
+z-index: 2;
+cursor: pointer;
+background-color: teal;
+    transition: all 1s;
+    box-shadow: inset 0 0 0 20px #2f2f2f;
+    font-size: 25px; */
+}
+
+#myProfile{
+    text-align: center;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: #2196f3 0px 19px 38px, #2196f3 0px 15px 12px;
+}
+   

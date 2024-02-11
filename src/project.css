@@ -1,0 +1,96 @@
+.project-detail-box {
+  font-size: 20px;
+}
+.image-box:hover {
+  transition: 0.5s;
+  transform: scale(1.5);
+}
+.project-title {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tech-used {
+  transform: rotate(10deg);
+}
+.borders-animation {
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  box-shadow: teal 0px 5px 15px;
+}
+.top-border {
+  background: linear-gradient(90deg, transparent, #2196f3);
+  width: 100%;
+  top: 0px;
+  left: 0%;
+  height: 2px;
+  animation-name: run-top;
+}
+.bottom-border {
+  background: linear-gradient(270deg, transparent, #2196f3);
+  width: 100%;
+
+  bottom: 0px;
+  left: 0%;
+  height: 2px;
+  transition-delay: 0.5s;
+  animation-name: run-bottom;
+}
+.left-border {
+  background: linear-gradient(360deg, transparent, #2196f3);
+  width: 2px;
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  transition-delay: 1s;
+  animation-name: run-left;
+ 
+}
+.right-border {
+  background: linear-gradient(180deg, transparent, #2196f3);
+  width: 2px;
+  right: 0px;
+  height: 100%;
+  transition-delay: 0.25s;
+  animation-name: run-right;
+}
+@keyframes run-top {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes run-bottom {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+@keyframes run-left {
+  from {
+    bottom: 0%;
+  }
+  to {
+    bottom: 100%;
+  }
+}
+@keyframes run-right {
+  from {
+    top: 0%;
+  }
+  to {
+    top: 100%;
+  }
+}
+/* -------- Project Individual boxes CSS --------- */
+.project-individual-box:hover{
+ 
+  /* color : black; */
+/* background: #2196f3; */
+transition: all 1s;
+box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}

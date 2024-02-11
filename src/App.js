@@ -1,7 +1,7 @@
 import Navbar from './Components/Navbar';
 
 import './App.css';
-
+import Home from './Components/Home/Home';
 import AllRoutes from './Components/Home/AllRoutes';
 import AllContent from "./Components/Home/AllContent"
 import { Box } from '@chakra-ui/react';
@@ -9,10 +9,10 @@ import { Box } from '@chakra-ui/react';
 // import Type from './Components/Home/Type';
 function App() {
   return (
-    <Box className="App" bg="#1A365D" w="100%">
+    <Box className='App' bg="#0E0C1D" w="100%" >
   
      <Navbar />
- 
+ <Home />
      <AllContent />
      
      

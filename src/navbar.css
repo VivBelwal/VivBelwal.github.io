@@ -1,0 +1,48 @@
+.navScroll {
+  /* background-color: #f1f2b5; */
+ 
+  /* background: linear-gradient(90deg, #0e0c1d, #f1f2b5, #0e0c1d); */
+  transition: all 0.3s ease-out 0s;
+}
+
+.first-name {
+  font-weight: 400;
+  color: #2196f3;
+}
+.first-name-scroll {
+  font-weight: 400;
+  color: #2196f3;
+}
+.second-name {
+  color: #f1f2b5;
+}
+.second-name-scroll {
+  color: #f1f2b5;
+}
+
+.navbar {
+  transition: all 0.3s ease-out 0s;
+  box-shadow: teal 0px 19px 38px, teal 0px 15px 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.nav-menu > p {
+  position: relative;
+  overflow: hidden;
+}
+.nav-menu > p > div {
+  transition: all 0.3s;
+  background: linear-gradient(90deg, transparent, #2196f3);
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  bottom: 40%;
+}
+.nav-menu > p:hover {
+  cursor: pointer;
+  color: #f1f2b5;
+}
+.nav-menu > p:hover > div {
+  width: 100%;
+}
